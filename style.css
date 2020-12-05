@@ -52,6 +52,10 @@ h2 {
   margin-bottom: 15%;
 }
 
+.profile {
+  margin-top: 20%;
+}
+
 .profile__img {
   width: 60%;
   margin: 0 auto 10%;
@@ -83,7 +87,7 @@ h2 {
 }
 
 .skill {
-  margin-top: 30%;
+  margin-top: 60%;
 }
 
 .skill__box {
@@ -112,10 +116,11 @@ h2 {
 .skill .certification__name {
   font-family: 'Noto Sans JP', sans-serif;
   font-size: 20px;
+  margin-bottom: 10%;
 }
 
 .product {
-  margin-top: 20%;
+  margin-top: 30%;
 }
 
 .product .material {
@@ -143,7 +148,7 @@ h2 {
 }
 
 .message {
-  margin-top: 10%;
+  margin-top: 30%;
 }
 
 .message .arrow_box {
@@ -356,6 +361,7 @@ h2 {
     padding-top: 10%;
   }
   .profile {
+    margin-top: 0;
     padding-top: 15%;
   }
   .profile__img {
@@ -367,6 +373,7 @@ h2 {
     height: 120%;
   }
   .skill {
+    margin-top: 15%;
     padding-top: 15%;
   }
   .skill .certification {
@@ -377,14 +384,17 @@ h2 {
   }
   .skill .certification__name {
     font-size: 25px;
+    margin-bottom: 0;
   }
   .material p {
     font-size: 30px;
   }
   .product {
+    margin-top: 0;
     padding-top: 15%;
   }
   .message {
+    margin-top: 10%;
     padding-top: 15%;
   }
   .twitter .twitter-img {
@@ -514,6 +524,11 @@ h2 {
   }
   .message {
     padding-top: 10%;
+  }
+  .message .arrow_box > p {
+    width: 90%;
+    margin: 10% auto;
+    font-size: 20px;
   }
   .twitter .twitter-img {
     width: 7%;
