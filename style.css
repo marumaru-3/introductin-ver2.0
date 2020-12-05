@@ -1,0 +1,522 @@
+body {
+  margin: 0;
+  font-family: 'Caveat','Noto Sans JP', cursive;
+}
+
+img {
+  width: 100%;
+}
+
+.animate__animated {
+  opacity: 0;
+}
+
+.header {
+  width: 100%;
+  background-color: whitesmoke;
+  z-index: 100;
+}
+
+.header__name {
+  font-size: 1.7em;
+}
+
+.header__item {
+  padding-left: 5%;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.navbar-light .navbar-brand {
+  color: skyblue;
+}
+
+.navbar-light .navbar-brand:hover {
+  color: deeppink;
+}
+
+.content-img {
+  margin-bottom: 20%;
+}
+
+.content-img > .header-img {
+  padding-top: 20%;
+}
+
+h2 {
+  color: #008C97;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 15%;
+}
+
+.profile__img {
+  width: 60%;
+  margin: 0 auto 10%;
+}
+
+.profile__img h3 {
+  text-align: center;
+}
+
+.profile .oval {
+  width: 100%;
+  height: 150%;
+  background-color: #99FFFF;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.profile .oval > p {
+  width: 80%;
+  margin-top: 5%;
+}
+
+.skill {
+  margin-top: 30%;
+}
+
+.skill__box {
+  margin-bottom: 5%;
+}
+
+.skill__name {
+  text-align: center;
+  margin-bottom: 10%;
+}
+
+.skill__name > img {
+  width: 80%;
+}
+
+.skill .certification {
+  text-align: center;
+}
+
+.skill .certification > h3 {
+  color: #999999;
+  margin-bottom: 15%;
+  font-size: 25px;
+}
+
+.skill .certification__name {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 20px;
+}
+
+.product {
+  margin-top: 20%;
+}
+
+.product .material {
+  margin: 0 auto;
+  text-align: center;
+  width: 90%;
+  padding: 2%;
+  background-color: #DDFFFF;
+  border-radius: 10%;
+}
+
+.product .material img {
+  width: 80%;
+  margin-top: 7%;
+  margin-bottom: 3%;
+  border-radius: 5%;
+}
+
+.product .material a {
+  color: blue;
+}
+
+.product .material a:hover {
+  color: deeppink;
+}
+
+.message {
+  margin-top: 10%;
+}
+
+.message .arrow_box {
+  position: relative;
+  width: 80%;
+  margin: 0 auto 20%;
+  background: #DDFFFF;
+  padding: 10px;
+  text-align: center;
+  color: black;
+  font-family: 'Noto Sans JP', sans-serif;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+}
+
+.message .arrow_box > p {
+  width: 90%;
+  margin: 10% auto;
+  font-size: 20px;
+}
+
+.message .arrow_box:after {
+  border: solid transparent;
+  content: '';
+  height: 0;
+  width: 0;
+  pointer-events: none;
+  position: absolute;
+  border-color: rgba(0, 153, 255, 0);
+  border-top-width: 30px;
+  border-bottom-width: 20px;
+  border-left-width: 20px;
+  border-right-width: 20px;
+  margin-left: -20px;
+  border-bottom-color: #DDFFFF;
+  bottom: 100%;
+  left: 50%;
+}
+
+.message .border-color {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), color-stop(50%, yellow));
+  background: linear-gradient(transparent 50%, yellow 50%);
+}
+
+.twitter {
+  text-align: center;
+  margin-bottom: 20%;
+}
+
+.twitter .twitter-link:hover {
+  color: deeppink;
+}
+
+.twitter .twitter-img {
+  width: 20%;
+  height: 20%;
+}
+
+.twitter .twitter-text {
+  font-size: 25px;
+}
+
+#page_top {
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+  margin: 3%;
+}
+
+#page_top a {
+  background-color: #999;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  padding: 23px 23px;
+  border-radius: 50%;
+  opacity: .6;
+}
+
+#page_top a:hover {
+  background-color: #666;
+  text-decoration: none;
+}
+
+.footer.content-img {
+  margin: 0;
+}
+
+.star {
+  font-family: "Font Awesome 5 Free";
+  font-size: 15px;
+  color: #fc6530;
+}
+
+.star:before {
+  font-weight: 900;
+}
+
+.star:after {
+  font-weight: 400;
+}
+
+.star[data-rate="0.0"]:before {
+  content: "";
+}
+
+.star[data-rate="0.5"]:before {
+  content: "\f5c0";
+}
+
+.star[data-rate="1.0"]:before {
+  content: "\f005";
+}
+
+.star[data-rate="1.5"]:before {
+  content: "\f005\f5c0";
+}
+
+.star[data-rate="2.0"]:before {
+  content: "\f005\f005";
+}
+
+.star[data-rate="2.5"]:before {
+  content: "\f005\f005\f5c0";
+}
+
+.star[data-rate="3.0"]:before {
+  content: "\f005\f005\f005";
+}
+
+.star[data-rate="3.5"]:before {
+  content: "\f005\f005\f005\f5c0";
+}
+
+.star[data-rate="4.0"]:before {
+  content: "\f005\f005\f005\f005";
+}
+
+.star[data-rate="4.5"]:before {
+  content: "\f005\f005\f005\f005\f5c0";
+}
+
+.star[data-rate="5.0"]:before {
+  content: "\f005\f005\f005\f005\f005";
+}
+
+.star[data-rate="0.0"]:after {
+  content: "\f005\f005\f005\f005\f005";
+}
+
+.star[data-rate="0.5"]:after {
+  content: "\f005\f005\f005\f005";
+}
+
+.star[data-rate="1.0"]:after {
+  content: "\f005\f005\f005\f005";
+}
+
+.star[data-rate="1.5"]:after {
+  content: "\f005\f005\f005";
+}
+
+.star[data-rate="2.0"]:after {
+  content: "\f005\f005\f005";
+}
+
+.star[data-rate="2.5"]:after {
+  content: "\f005\f005";
+}
+
+.star[data-rate="3.0"]:after {
+  content: "\f005\f005";
+}
+
+.star[data-rate="3.5"]:after {
+  content: "\f005";
+}
+
+.star[data-rate="4.0"]:after {
+  content: "\f005";
+}
+
+.star[data-rate="4.5"]:after {
+  content: "";
+}
+
+.star[data-rate="5.0"]:after {
+  content: "";
+}
+
+@media (min-width: 575px) {
+  .header__name {
+    font-size: 30px;
+  }
+  .header__item {
+    font-size: 20px;
+  }
+  .header__item-link {
+    margin-left: 10%;
+  }
+  h2 {
+    font-size: 50px;
+    margin-bottom: 8%;
+  }
+  .content-img {
+    margin-bottom: 20%;
+  }
+  .content-img > .header-img {
+    padding-top: 10%;
+  }
+  .profile {
+    padding-top: 15%;
+  }
+  .profile__img {
+    margin: 0 auto;
+    padding-top: 10%;
+    padding-right: 3%;
+  }
+  .profile .oval {
+    height: 120%;
+  }
+  .skill {
+    padding-top: 15%;
+  }
+  .skill .certification {
+    margin-bottom: 10%;
+  }
+  .skill .certification > h3 {
+    font-size: 34px;
+  }
+  .skill .certification__name {
+    font-size: 25px;
+  }
+  .material p {
+    font-size: 30px;
+  }
+  .product {
+    padding-top: 15%;
+  }
+  .message {
+    padding-top: 15%;
+  }
+  .twitter .twitter-img {
+    width: 15%;
+  }
+  .twitter .twitter-text {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 870px) {
+  .header #nav-bar {
+    padding-left: 25%;
+  }
+  .header__item {
+    font-size: 23px;
+  }
+}
+
+@media (min-width: 992px) {
+  .header #nav-bar {
+    padding-left: 30%;
+  }
+  .header__item {
+    font-size: 25px;
+  }
+  .content-img {
+    margin-top: 8%;
+    margin-bottom: 0;
+    background-image: url("images/bg-header.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 100%;
+  }
+  .content-img > .header-img {
+    display: none;
+  }
+  .profile__img {
+    padding-top: 10%;
+  }
+  .profile .oval {
+    height: 120%;
+    width: 90%;
+    margin: 0 0 0 10%;
+  }
+  .profile .oval > p {
+    font-size: 20px;
+  }
+  .twitter {
+    margin-bottom: 0;
+  }
+  .twitter .twitter-img {
+    width: 10%;
+  }
+  .twitter .twitter-text {
+    font-size: 30px;
+  }
+  #page_top {
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    margin: 5%;
+  }
+  #page_top a {
+    background-color: #999;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    padding: 30px 30px;
+    border-radius: 50%;
+    opacity: .6;
+    font-size: 23px;
+  }
+  .footer > img {
+    display: none;
+  }
+  .footer.content-img {
+    background-image: url("images/bg-footer.png");
+    background-position: bottom;
+  }
+}
+
+@media (min-width: 1040px) {
+  .header #nav-bar {
+    padding-left: 40%;
+  }
+  .content-img {
+    margin-top: 8%;
+  }
+  .content-img > .header-img {
+    display: none;
+  }
+}
+
+@media (min-width: 1300px) {
+  .header #nav-bar {
+    padding-left: 50%;
+    font-size: 30px;
+  }
+  .content-img {
+    margin-top: 7%;
+  }
+  .content-img > .header-img {
+    display: none;
+  }
+  .profile {
+    padding-top: 10%;
+  }
+  .profile__img {
+    padding-top: 10%;
+  }
+  .profile .oval {
+    height: 120%;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .profile .oval > p {
+    font-size: 20px;
+    line-height: 200%;
+  }
+  .skill {
+    padding-top: 10%;
+  }
+  .product {
+    padding-top: 10%;
+  }
+  .message {
+    padding-top: 10%;
+  }
+  .twitter .twitter-img {
+    width: 7%;
+  }
+}
+/*# sourceMappingURL=style.css.map */

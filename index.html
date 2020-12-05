@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Introduction Site</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Noto+Sans+JP&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/bootstrap-reboot.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <header class="header">
+    <div class="fixed-top bg-light">
+      <nav class="navbar navbar-expand-sm navbar-light p-4 header__nav">
+        <a href="index.html" class="navbar-brand header__name">Introduction Page</a>
+  
+        <button type="button" class="navbar-toggler header__button" data-toggle="collapse" data-target="#nav-bar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="nav-bar">
+          <ul class="navbar-nav header__item">
+            <li class="nav-item header__item-link" id="profile"><a href="#" class="nav-link">Profile</a></li>
+            <li class="nav-item header__item-link" id="skill"><a href="#" class="nav-link">Skill</a></li>
+            <li class="nav-item header__item-link" id="product"><a href="#" class="nav-link">Product</a></li>
+            <li class="nav-item header__item-link" id="message"><a href="#" class="nav-link">Message</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <div class="content-img">
+    <img src="images/header-img.png" class="header-img" alt="IntroductionPage">
+  </div>
+  <div class="profile container">
+    <h2 class="animate__animated profile-title">My Profile</h2>
+    <div class="row">
+      <div class="col-sm-4 profile__img">
+        <img src="images/my-profile.jpeg" alt="まるまるのプロフィール画像">
+        <h3>まるまる</h3>
+      </div>
+      <div class="col-sm-8">
+        <div class="oval">
+          <p>
+            プログラミング歴３ヶ月のまるまるです！<br>高卒ニートでも、プログラミングを学んで誰かの役に立てる人材を目指して日々勉強しております。<br>
+            超インドア派です。趣味は漫画を読むこととイラストを描くことが好きで、たまに描いたりします。
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="skill container">
+    <h2 class="animate__animated skill-title">My Skill</h2>
+    <div class="row skill__box">
+      <div class="col-6 col-sm-4 col-lg-3 skill__name">
+        <img src="images/html-5.png" alt="">
+        <h4>HTML</h4>
+        <span class="star" data-rate="3.0"></span>
+      </div>
+      <div class="col-6 col-sm-4 col-lg-3 skill__name">
+        <img src="images/css.png" alt="">
+        <h4>CSS</h4>
+        <span class="star" data-rate="3.0"></span>
+      </div>
+      <div class="col-6 col-sm-4 col-lg-3 skill__name">
+        <img src="images/bootstrap.png" alt="">
+        <h4>bootstrap</h4>
+        <span class="star" data-rate="2.5"></span>
+      </div>
+      <div class="col-6 col-sm-4 col-lg-3 skill__name">
+        <img src="images/javascript.png" alt="">
+        <h4>JavaScript</h4>
+        <span class="star" data-rate="2.0"></span>
+      </div>
+      <div class="col-6 col-sm-4 col-lg-3 skill__name">
+        <img src="images/jquery.png" alt="">
+        <h4>jQuery</h4>
+        <span class="star" data-rate="2.0"></span>
+      </div>
+      <div class="col-6 col-sm-4 col-lg-3 skill__name">
+        <img src="images/vue-js.png" alt="">
+        <h4>Vue.js</h4>
+        <span class="star" data-rate="1.5"></span>
+      </div>
+    </div>
+    <div class="certification container">
+      <h3>資格取得中</h3>
+      <div class="row">
+        <h4 class="col-sm-6 certification__name">ウェブデザイン技能検定3級</h4>
+        <h4 class="col-sm-6 certification__name">ITパスポート</h4>
+      </div>
+    </div>
+  </div>
+  <div class="product">
+    <h2 class="animate__animated product-title">My Product</h2>
+    <div class="material">
+      <a href="https://marumaru-3.github.io/materialImage/">
+        <img src="images/material-image.jpg" alt="写真検索サイト">
+        <p>https://marumaru-3.github.io/materialImage/</p>
+        </a>
+    </div>
+  </div>
+  <div class="message">
+    <h2 class="animate__animated message-title">My Message</h2>
+    <div class="arrow_box">
+      <p>
+        <span class="border-color">Webデザイナー</span>もしくは<span class="border-color">フロントエンド開発</span>の仕事に携わっていけるように頑張っていきます！<br>
+        そしていつかは<span class="border-color">Web制作</span>で個人で稼ぐこともしていきたいです！
+      </p>
+    </div>
+  </div>
+  <div class="twitter">
+    <a class="twitter-link" href="https://twitter.com/marumaru_99999">
+      <img class="twitter-img" src="https://img.icons8.com/cotton/128/000000/twitter.png"/>
+      <p class="twitter-text">Twitter</p>
+    </a>
+  </div>
+  <div id="page_top"><a href="#">TOP</a></div>
+
+  <div class="footer content-img">
+    <img src="images/footer.png" alt="footerIllust">
+  </div>
+
+
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js"></script>
+  <script src="jquery.waypoints.min.js"></script>
+  <script src="jquery.inview.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
